@@ -208,7 +208,7 @@ overflow:hidden;
 	height:60px;
 	transform:scale(1.5);
 }
-.play-btn a{
+.play-btn a {
 	text-decoration:none;
 	color:white;
 	width:60px;
@@ -220,6 +220,26 @@ overflow:hidden;
 	font-size:18px;
 	transition: all 2s ease 0s;
 }
+.i1{
+	position: absolute;
+    font-size: 19px;
+	}
+.play-btn a icon-02
+{
+font-size: 19px;
+    transition-duration: 0.5s;
+    transform: scale(0);
+    transition-timing-function: ease-in-out;
+    opacity: 1;
+    z-index: 1;
+}
+.play-btn a i:hover {
+	
+	transform:scale(15);
+	opacity:0;
+	transition-duration:0.5s;
+}
+
 .play-btn::after{
 	content:"";
 	position:absolute;
@@ -647,6 +667,7 @@ color:#d9ba85;
 	padding:10px 10px;
 	border:2px solid #625b4b;
     background: #0c0b09;
+	color:white;
    
 }
 .form-div-100{
@@ -799,7 +820,7 @@ color:#d9ba85;
      opacity:1;
 	
 }
-.chef1-hover:hover{
+.chef1:hover .chef1-hover{
 	bottom:0px;
 	opacity:1;
 	transform: translatey(-20px);
@@ -899,21 +920,25 @@ color:#d9ba85;
 .mapform{
 	width:60%;
 	padding:40px 0px;
+	
 }
 .map-input{
 	width:100%;
 	display:flex;
 	flex-wrap:wrap;
+	
 }
 .map-input div{
 	width:50%;
 	padding:10px;
+	
 }
 .map-input div input{
 	width:100%;
 	padding:15px 10px;
 	border:1px solid #625b4b;
     background: #0c0b09;
+	color:white;
 }
 .map-input2 {
 	width:100%;
@@ -924,6 +949,7 @@ color:#d9ba85;
 	padding:15px 10px;
 	border:1px solid #625b4b;
     background: #0c0b09;
+	color:white;
 }
 .map-input3{
 	width:100%;
@@ -936,6 +962,7 @@ color:#d9ba85;
 	 border:1px solid #625b4b;
 	height:180px;
 	padding:10px;
+	color:white;
 }
 .map-input4 {
 	width:100%;
