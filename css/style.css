@@ -1059,6 +1059,7 @@ color:#d9ba85;
 	border: 1px solid #28251f;
     padding:10px;
     background-color:#28251f;
+	 color:white;
 }
 .link-submit{
 	width:30%;
@@ -1069,7 +1070,7 @@ color:#d9ba85;
 	top:0px;
   padding:10px;
   background-color:#cda45e;
-  color:white;
+ 
 }
 .footer-section{
 	background-color:black;
