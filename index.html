@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+ <meta charset="UTF-8">
+  <meta name="description" content="layout">
+  <meta name="keywords" content="restaurent,hotel">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>layout</title>
- <link rel ="stylesheet" href ="css/style.css">
 <link rel ="styleshet" href ="reset.css">
 <link rel ="stylesheet" href="icon/icofont.min.css">
+<link rel ="stylesheet" href ="css/style.css">
+<link rel ="stylesheet" href ="css/responsive.css">
 </head>
 <body> 
 <!--header start-->
@@ -21,7 +28,7 @@
                  <li><span class ="span1"><i class="icofont-clock-time"></span></i> Mon-Sat: 11AM-23pm</li>
                  </ul>
            </div>
-           <div class ="lang">
+           <div class ="lang d-none">
 		   
         		  <a class ="en" href ="#">En</a><span class="span2">/</span>
                   <a href ="#">De</a>
@@ -38,7 +45,7 @@
 			<div class ="logo">
 					<a class ="rest">RESTAURANTLY</a>
 			</div>
-			<div class="menu">
+			<div class="menu d-none">
 					<ul class ="navul">
 					<li><a class ="a1"href ="index.html">Home</a></li>
 					<li><a class ="a1" href ="#">About</a></li>
@@ -51,7 +58,7 @@
 					<li><a class ="a1" href ="#">Contact</a></li>
 					<ul>
 			</div>
-			<div class ="button">
+			<div class ="button d-none">
 			<a class ="book" href ="#">BOOK A TABLE</a>
 			</div>
 			</div>
@@ -63,10 +70,10 @@
 <!--banner-->
 <div class ="container">
 			<div class ="banner">
-			<div class ="ban-content">
+			<div class ="ban-content text-align col-12">
 					<h1 class ="ban-h1">Welcome to <span class ="spn-rest">Restaurantly</span></h1>
 					<h2 class ="ban-h2">Delivering great food for more   than <sub>1</sub>8 years!</h2>
-			<div class ="butn-ban">
+			<div class ="butn-ban col-12">
 					<a  class ="butn1-ban" href="#">OUR MENU</a>
 					<a class ="butn1-ban" href ="#">BOOK A TABLE</a>
 			</div>
@@ -87,8 +94,8 @@
 
 <!--about start-->
 		<section class ="about">
-			<div class ="container">
-			<div class ="content">
+			<div class ="container flex-column-reverse">
+			<div class ="content col-12">
 					<h1>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h1>
 					<p class ="p1"><i>Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua.</i></p>
@@ -97,7 +104,7 @@
 					<p class ="p2"><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu 	fugiat nulla pariatur.</p>
 					<p class ="p2">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 			</div>
-			<d..iv class ="image">
+			<div class ="image col-12">
 					<img class ="inimg" src="images/image1.jpg" alt="image">
 			</div>
 			</div>
@@ -109,22 +116,20 @@
 			<div class ="whyus">
 			   <p class ="section-p">WHY US</p>
 			   <h1 class ="section-h1">Why Choose Our Restaurant</h1>
-			
 	        </div>
-			<div class ="whyus-div">
-			<div class ="why-boxs">
+			<div class ="whyus-div wrap">
+			<div class ="why-boxs col-12">
 			   <span>01</span>
 			   <h2>Lorem Ipsum</h2>
 			   <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
 			</div>
-            <div class ="why-boxs">
-	
+            <div class ="why-boxs col-12">
 			<span>02</span>
 			<h2>Repellat Nihil</h2>
 			<p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
 			
 			</div>
-       <div class ="why-boxs">
+       <div class ="why-boxs col-12">
 			
 			     <span>03</span>
 			     <h2>Ad ad velit qui</h2>
@@ -150,7 +155,7 @@
 		   </ul>
 		   </div>
 		<div class ="all">
-           <div class ="food">
+           <div class ="food col-12">
            <div class ="fimg">
 		   <img src ="images/menu1.jpg">
 		   </div>
@@ -168,7 +173,7 @@
            </div>
 		 
 
-           <div class ="food">
+           <div class ="food col-12">
            <div class="fimg">
 		   <img src ="images/menu2.jpg"></div>
            <div class ="fcontent">
@@ -182,7 +187,7 @@
 		   </div>
            </div>
 		  
-           <div class ="food">
+           <div class ="food col-12">
            <div class ="fimg">
 		   <img src ="images/menu3.jpg"></div>
            <div class ="fcontent">
@@ -196,7 +201,7 @@
 		   </div>
            </div>
 		    
-           <div class ="food">
+           <div class ="food col-12">
 <div class ="fimg"><img src ="images/menu4.jpg"></div>
 <div class ="fcontent">
 <div  class ="fcontent-text">
@@ -208,7 +213,7 @@
 		   
 </div>
 </div>
-<div class ="food">
+<div class ="food col-12">
 <div class ="fimg"><img src ="images/menu5.jpg"></div>
 <div class ="fcontent">
 <div class ="fcontent-text" >
@@ -221,7 +226,7 @@
 </div>
 </div>
 
-<div class ="food">
+<div class ="food col-12">
 <div class ="fimg"><img src ="images/menu6.jpg"></div>
 <div class ="fcontent">
 <div class ="fcontent-text">
@@ -233,7 +238,7 @@
 		   
 </div>
 </div>
-<div class ="food">
+<div class ="food col-12">
 <div class ="fimg"><img src ="images/menu7.jpg"></div>
 <div class ="fcontent">
 <div class ="fcontent-text">
@@ -246,7 +251,7 @@
 </div>
 </div>
 
-<div class ="food">
+<div class ="food col-12">
 <div class ="fimg"><img src ="images/menu8.jpg"></div>
 <div class ="fcontent">
 <div  class ="fcontent-text">
@@ -258,7 +263,7 @@
 		   
 </div>
 </div>
-<div class ="food">
+<div class ="food col-12">
 <div class ="fimg"><img src ="images/menu9.jpg"></div>
 <div class ="fcontent">
 <div  class ="fcontent-text">
@@ -285,7 +290,7 @@
 <h1 class="section-h1">Check Our Specials</h1>
 
 </div>
-<div class ="sbox1">
+<div class ="sbox1  col-12">
 <ul>
 <li><a href ="#">Modi sit est</a></li>
 <li><a href ="#">Unde praesentium sed</a></li>
@@ -294,14 +299,14 @@
 <li><a href ="#">Iusto ut expedita aut</a></li>
 </ul>
 </div>
-<div class ="sbox2-div">
-<div class ="sbox2">
+<div class ="sbox2-div col-12 wrap flex-column-reverse">
+<div class ="sbox2 col-12">
 <h1>Architecto ut aperiam autem id</h1>
 <p ><i>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</i></P>
 
 <P>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
 </div>
-<div class ="sbox3">
+<div class ="sbox3 col-12">
 <img class ="spc-img" src ="images/special.png" alt ="image">
 </div>
 </div>
@@ -316,10 +321,10 @@
 <h1 class ="section-h1">Organize Your Events in our Restaurant</h1>
 </div>
 
-<div class ="eimg">
-<img src ="images/event-private.jpg" alt ="image">
+<div class ="eimg col-12">
+<img class ="eimg-img" src ="images/event-private.jpg" alt ="image">
 </div>
-<div class ="econtent">
+<div class ="econtent col-12">
 <h3>Private parties</h3>
 <span>$290</span>
 <P class ="event-p1"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></P>
@@ -344,32 +349,32 @@
 </div>
 <form class ="form">
 <div class ="form-div1">
-<div class ="form-div2">
+<div class ="form-div2 col-12">
 <input type ="text" id ="" placeholder="YOUR NAME">
 </div>
-<div class ="form-div2" >
+<div class ="form-div2 col-12" >
 
 <input type ="email" id ="" placeholder="YOUR EMAIL">
 </div>
-<div  class ="form-div2">
+<div  class ="form-div2 col-12">
 <input type ="text" id ="" placeholder="YOUR NUMBER">
 </div>
 </div>
-<div class ="form-div1">
-<div  class ="form-div2">
+<div class ="form-div1 ">
+<div  class ="form-div2 col-12">
 <input type ="text" id ="" placeholder="DATE">
 </div>
-<div  class ="form-div2">
+<div  class ="form-div2 col-12">
 <input type ="text" id ="" placeholder="TIME">
 </div>
-<div  class ="form-div2">
+<div  class ="form-div2 col-12">
 <input type ="number" id ="" placeholder="0">
 </div>
 </div>
-<div class ="form-div-100">
+<div class ="form-div-100 col-12">
 <textarea placeholder="Message"></textarea>
 </div>
-<div class="submit">
+<div class="submit col-12">
  <button type="reset">Book a Table</button>
  </div>
 </form>
@@ -384,8 +389,8 @@
 <p class ="section-p">TESTIMONIALS</P>
 <h1 class ="section-h1">What they're saying about us</h1>
 </div>
-<div class ="abtbox-div">
-<div class="abtbox1">
+<div class ="abtbox-div wrap">
+<div class="abtbox1 col-12">
 <div>
 <p class ="abtbox1-p">	
  <i class="icofont-quote-left"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper 
@@ -398,7 +403,7 @@
 </div>
 </div>
 
-<div class="abtbox1">
+<div class="abtbox1 col-12">
 <P class = "abtbox1-p">
 <i class="icofont-quote-left"></i> Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.<i class="icofont-quote-right"></i></P>
 <div class ="abtimg">
@@ -409,7 +414,7 @@
 </div>
 </div>
 </div>
-<div class="abtbox1">
+<div class="abtbox1 col-12">
 <p class = "abtbox1-p"><i class="icofont-quote-left"></i>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.<i class="icofont-quote-right"></i></P> 
 <div class ="abtimg">
 <img src ="images/testimonials-3.jpg" alt ="image">
@@ -417,7 +422,7 @@
 <h3>Jena karlis</h3>
 <h4>Store Owner</h4>
 </div>
-</div>
+
 </div>
 </div>
 </div>
@@ -426,25 +431,25 @@
 <section class ="img-section" >
 <!--images-->
 <div class ="container1">
-<div class ="imgtitle">
+<div class ="imgtitle ">
 <p class ="section-p">GALLERY
 </p>
 <h1 class ="section-h1">Some photos from Our Restaurant</h1>
 </div>
 <div class ="gallery">
-<div class ="imgbox">
+<div class ="imgbox col-12">
 <img src ="images/gallery-1.jpg"" alt="image">
 </div>
 
-<div class ="imgbox">
+<div class ="imgbox col-12">
 <img src ="images/gallery-2.jpg"" alt="image">
 </div>
-<div class ="imgbox"><img src ="images/gallery-3.jpg" alt="image"></div>
-<div class ="imgbox"><img src ="images/gallery-4.jpg"" alt="image"></div>
-<div class ="imgbox"><img src ="images/gallery-5.jpg"" alt="image"></div>
-<div class ="imgbox"><img src ="images/gallery-6.jpg"" alt="image"></div>
-<div class ="imgbox"><img src ="images/gallery-7.jpg"" alt="image"></div>
-<div class ="imgbox"><img src ="images/gallery-8.jpg"" alt="image"></div>
+<div class ="imgbox col-12"><img src ="images/gallery-3.jpg" alt="image"></div>
+<div class ="imgbox col-12 "><img src ="images/gallery-4.jpg"" alt="image"></div>
+<div class ="imgbox col-12"><img src ="images/gallery-5.jpg"" alt="image"></div>
+<div class ="imgbox col-12"><img src ="images/gallery-6.jpg"" alt="image"></div>
+<div class ="imgbox col-12"><img src ="images/gallery-7.jpg"" alt="image"></div>
+<div class ="imgbox col-12"><img src ="images/gallery-8.jpg"" alt="image"></div>
 </div>
 </div>
 
@@ -457,8 +462,8 @@
 <P class ="section-p">CHEFS<P>
 <h1 class ="section-h1">Our Proffesional Chefs</h1>
 </div>
-<div class ="chefimg">
-<div class ="chef1">
+<div class ="chefimg wrap">
+<div class ="chef1 col-12">
 <img src ="images/chefs-1.jpg">
 <div class ="chef1-hover">
 <h4>Walter WHITE</h4>
@@ -472,7 +477,7 @@
 </div>
 </div>
 </div>
-<div class ="chef1"><img src ="images/chefs-2.jpg"><div class ="chef1-hover">
+<div class ="chef1 col-12"><img src ="images/chefs-2.jpg"><div class ="chef1-hover">
 <h4>Sarah Jhonson
 </h4>
 <span>Patissier</span>
@@ -484,7 +489,7 @@
 </ul>
 </div>
 </div></div>
-<div class ="chef1"><img src ="images/chefs-3.jpg">
+<div class ="chef1 col-12"><img src ="images/chefs-3.jpg">
 <div class ="chef1-hover">
 <h4>William Anderson
 </h4>
@@ -518,8 +523,8 @@
 <!--form start-->
 <section class ="section-contus1">
 <div class ="container">
-<div class ="formchef">
-<div class ="info">
+<div class ="formchef col-12">
+<div class ="info ">
 <div class ="info-icon" >
 <i class="icofont-location-pin"></i>
 </div>
@@ -557,18 +562,20 @@
 </div>
 </div>
 </div>
-<form class ="mapform">
+<form class ="mapform col-12">
 <div class ="map-input">
-<div><input type ="text" placeholder ="your name"></div>
-<div><input type ="email"placeholder ="your email"></div>
+   <div class ="map-input-div col-12">
+   <input type ="text" placeholder ="your name"></div>
+      <div class ="map-input-div col-12">
+<input type ="email"placeholder ="your email"></div>
 </div>
-<div class ="map-input2">
+<div class ="map-input2 col-12">
 <input type ="text" placeholder ="subject">
 </div>
-<div class ="map-input3">
+<div class ="map-input3 col-12">
 <textarea placeholder ="Message"></textarea>
 </div>
-<div class ="map-input4">
+<div class ="map-input4 col-12">
 <input type ="submit" value="Send Message">
 </div>
 
@@ -579,7 +586,7 @@
 <section class ="section-link">
 <!--link-->
 <div class ="container">
-<div class ="linkbox1">
+<div class ="linkbox1 col-12">
 <h2>RESTAURANTLY</h2>
 <address>
 A108 Adam Street<br>
@@ -596,7 +603,7 @@ NY 535022, USA<br>
 <a href ="#"><i class="icofont-linkedin"></i></a>
 
 </div>
-<div  class ="linkbox2">
+<div  class ="linkbox2 col-12">
 <h3>Useful Links</h3>
 <ul>
 <li><a href ="#"><i class="icofont-rounded-right"></i>Home</a></li>
@@ -606,7 +613,7 @@ NY 535022, USA<br>
 <li><a href ="#"><i class="icofont-rounded-right"></i>Privacy policy</a></li>
 </ul>
 </div>
-<div  class ="linkbox2">
+<div  class ="linkbox2 col-12">
 <h3>Our Services</h3>
 <ul>
 <li><a  href ="#"><i class="icofont-rounded-right"></i>Web Design</a></li>
@@ -616,9 +623,10 @@ NY 535022, USA<br>
 <li><a  href ="#"><i class="icofont-rounded-right"></i> Design</a></li>
 </ul>
 </div>
-<div  class ="linkbox3">
+<div  class ="linkbox3 col-12">
 <h3>Our Newsletter</h3>
-<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</P>\<form class ="link-form">
+<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</P>\
+<form class ="link-form">
 <input class ="link-email" type ="email">
 <input class ="link-submit" type ="submit" value ="subscribe">
 </form>

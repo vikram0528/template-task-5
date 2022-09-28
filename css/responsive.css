@@ -1,0 +1,29 @@
+/* for mobiles.....*/
+
+@media (max-width:576px){
+	.container{
+		width:100% !important;
+	}
+	.col-12{
+		width:100% !important;
+	}
+	.d-none{
+		
+		display:none !important;
+	}
+	.text-align{
+		text-align:center;
+	}
+	.play-btn{
+		top:auto;
+		bottom:0;
+		right:40%;
+		transform:translatey(-50);
+	}
+	.flex-column-reverse{
+		flex-direction:column-reverse !important;
+	}
+	.wrap{
+	flex-wrap:wrap !important;
+}
+}
