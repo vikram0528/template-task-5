@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>form</title>
+<style>
+.submit{
+text-align:center;
+}
+</style>
+</head>
+<body>
+<form>
+<fieldset>
+<legend>Application form</legend>
+<table>
+<tr>
+<th><label for ="name" >Full Name</label></th>
+<td><input type ="text" id ="name" value ="Aryan"></td>
+</tr>
+<tr>
+<th><label for ="mail" >Email</label></th>
+<td><input type ="email" id ="mail" value ="aryan@domain.com"></td>
+</tr>
+<tr>
+<th><label for ="gender">Gender</label></th>
+<td><input type ="radio" id ="gender" name ="gen">
+<label for ="gender">Male</label>
+<input type ="radio" id ="gender" name ="gen">
+<label for ="gender">Female</label></td>
+</tr>
+<tr>
+<th><label for ="Nationality">Nationality</label></th>
+<td><select id ="Nationality">
+<option value ="INDIAN">INDIAN</option>
+<option value ="pakishan">pakishan</option>
+<option value ="us">us</option>
+</select></td>
+<tr>
+<th><label for ="skil">Skill</label></th>
+<td><input type ="checkbox" id ="skil">
+<label for = "skil">Asp.net</label>
+<input type ="checkbox" id ="skil">
+<label for = "skil">sql server</label>
+<br>
+<input type ="checkbox" id ="skil">
+<label for = "skil">MVC</label>
+<input type ="checkbox" id ="skil">
+<label for = "skil">JQurry</label></td>
+</tr>
+<tr>
+<th><label for ="post">Post applying for</label></th>
+<td><input type ="radio">
+<label for ="post">trainee</label>
+<input type ="radio">
+<label for ="post">softwar engineer</label>
+<br>
+<input type ="radio">
+<label for ="post">team leader</label>
+<input type ="radio">
+<label for ="post">project manager</label></td>
+</tr>
+<tr>
+
+<th><label for = "file">upload Resume:</label></th>
+<td><input type ="file" id ="file"></td>
+</tr>
+<tr>
+<th><label for ="textarea">post your resume</label></th>
+<td><textarea id ="textarea" rows ="7" cols ="50">sample resume text.......</textarea></td>
+</tr>
+<tr>
+<td><input type ="checkbox" id ="check"  name ="box" value ="notity me">
+<label for ="check">Notify me the status via email</label></td>
+</tr>
+</table>
+<div>
+
+
+<input type ="radio" id ="radio">
+<label for ="agree">I agree terms and conditions</label>
+</div>
+<div class ="submit">
+
+<input type ="submit">
+<input type ="reset">
+</div>
+</fieldset>
+</form>
+</body>
+</html>
