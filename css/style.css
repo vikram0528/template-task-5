@@ -10,9 +10,7 @@
 *{
 padding:0px;
 margin:0px;
-box-sizing:border-box;
-	
-	
+box-sizing:border-box;	
 }
 .container{
 	display: flex;
@@ -52,7 +50,6 @@ z-index:1;
 }
 .unorder li{
 	font-family: 'Roboto', sans-serif;
-	
 	display:inline-block;
 	color:white;
 	margin-right:20px;
@@ -73,7 +70,7 @@ background-color:rgba(12, 11, 9, 0.6);
 	font-size:14px;
 	text-decoration:none;
 	list-style-type:none;
-	displa
+
 }
 
 .en:visited{

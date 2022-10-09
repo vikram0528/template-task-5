@@ -21,7 +21,7 @@
            <div class ="headerinfo">
             <div class ="container">
 			
-             <div class ="number col-12 col-6">
+             <div class ="number col-12 col-6 text-align">
 			 
                  <ul class ="unorder">
                  <li><span class ="span1"><i class="icofont-smart-phone"></span></i> +1 5589 55488 55
@@ -46,7 +46,17 @@
 			<div class ="logo">
 					<a href ="#" class ="rest">RESTAURANTLY</a>
 			</div>
-			<div class="menu d-none">
+			<div class ="menu-close-button" id = "mobile-btn">
+			<div class ="bar-lt">
+			</div>
+			<div class ="bar-ct">
+			</div>
+			<div  class ="bar-rt">
+			</div>
+			</div>
+			
+			<div class="menu">
+			
 					<ul class ="navul">
 					<li><a class ="a1"href ="index.html">Home</a></li>
 					<li><a class ="a1" href ="#">About</a></li>
@@ -637,13 +647,13 @@ NY 535022, USA<br>
 </div>
 <div  class ="linkbox2 col-12 col-6">
 <h3>Our Services</h3>
-<ul>
-<li><a  href ="#"><i class="icofont-rounded-right"></i>Web Design</a></li>
-<li><a  href ="#"><i class="icofont-rounded-right"></i>Web Development</a></li>
-<li><a href="#" ><i class="icofont-rounded-right"></i>Product Management</a></li>
-<li><a  href ="#"><i class="icofont-rounded-right"></i>Marketing</a></li>
-<li><a  href ="#"><i class="icofont-rounded-right"></i> Design</a></li>
-</ul>
+					<ul>
+					<li><a  href ="#"><i class="icofont-rounded-right"></i>Web Design</a></li>
+					<li><a  href ="#"><i class="icofont-rounded-right"></i>Web Development</a></li>
+					<li><a href="#" ><i class="icofont-rounded-right"></i>Product Management</a></li>
+					<li><a  href ="#"><i class="icofont-rounded-right"></i>Marketing</a></li>
+					<li><a  href ="#"><i class="icofont-rounded-right"></i> Design</a></li>
+					</ul>
 </div>
 <div  class ="linkbox3 col-12 col-6">
 <h3>Our Newsletter</h3>
@@ -665,6 +675,15 @@ NY 535022, USA<br>
                 </div>
             </div>
         </footer>
+		<script type="text/javascript">
+	let mobileBtn = document.getElementById("mobile-btn");
+	let mobileNav = document.getElementsByClassName("menu")[0];
+
+	mobileBtn.addEventListener("click", ()=>{
+		mobileBtn.classList.toggle("active-btns");
+		mobileNav.classList.toggle("active-menu");
+	});
+</script>
 		                       <!--footer end-->
 </body>
 </html>
