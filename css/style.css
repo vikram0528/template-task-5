@@ -14,13 +14,10 @@ box-sizing:border-box;
 }
 .container{
 	display: flex;
-	width:1170px;
 	padding-left:15px;
 	padding-right:15px;
 	margin: 0 auto;
-	 flex-wrap:wrap;
-	
-	
+	flex-wrap:wrap;
 }
 
 .container1{
@@ -90,8 +87,8 @@ padding:15px 15px 15px 0px;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing:2px;
 	color:white;
-	text-decoration: none;
-	
+	text-decoration:none;
+   	
 }
 .menu{
 	width:60%;
@@ -100,7 +97,7 @@ padding:15px 15px 15px 0px;
 .menu ul{
 list-style-type:none;
 }
-.navul li{
+.navul li  {             
 	 display: inline-block;
 }
 .a1{
@@ -300,13 +297,13 @@ border: 4px solid rgba(255, 255, 255, 0.2);
 }
 
 .image:hover{
-	 transform: scale(1.1,1.1);	 
+	 transform: scale(1.1);	 
 }
 .image::after{
 	content:"";
 	position:absolute;
 	right:20px;
-	bottom:20px;
+	bottom:35px;
  border-right:5px solid #d9ba85;
  border-bottom:5px solid #d9ba85;
  width:70px;
@@ -377,12 +374,14 @@ font-family: "Poppins", sans-serif;
 	display:flex;
 	background-color:#0c0b09;
 }
-
-.why-boxs{
+.main-whybox{
 	width:33.33%;
-	background-color:#333029;
+	padding:0px 10px;
 	margin-bottom:20px;
-	margin-right:20px;
+}
+.why-boxs{
+	
+	background-color:#333029;
 	padding:30px 30px;	
 	transition: all 1s linear;
 }
@@ -542,7 +541,11 @@ color:#d9ba85;
 	font-family: "Open Sans", sans-serif;
 	transition:
 }
-.sbox1 li:hover{
+.sbox-li:hover{
+	background-color:#d9ba85;
+	color:black;
+}
+.sbox-li1{
 	background-color:#d9ba85;
 	color:black;
 }
@@ -712,7 +715,7 @@ color:#d9ba85;
 	border-radius:6px;
 	position: relative;
 	margin-bottom:20px;
-	padding:0px 25px 100px 0px;
+	padding:0px 10px 100px 10px;
    
 }
 .abtbox1-p1{
@@ -732,10 +735,10 @@ color:#d9ba85;
 	Padding:10px;
 }
 .img-main{
-	width:100%;
+	
 	position:absolute;
 	bottom:0px;
-	left:20px;
+	left:35px;
 }
 .abtimg {
 	width:90px;
@@ -785,22 +788,21 @@ color:#d9ba85;
 	width:100%;
 	height:auto;
 	display:block;
-	transition: all 2s ease-in-out 0.4s;
+	transition: all 0.5s ease ;
 }
 .imgbox img:hover{
 	transform:scale(1.1);
 }
 .cheftitle{
 	width:100%;
-	
-	
 }
+
 .chefimg{
 	width:100%;
 	display:flex;
 	padding:30px 0px;
-	
 }
+
 .chef1::after{
 	content:"";
 	position:absolute;
@@ -822,11 +824,15 @@ color:#d9ba85;
 	opacity:1;
 	transform: translatey(-20px);
 }
-.chef1{
+.mainchef{
 	width:33.33%;
-	position:relative;
-	padding-right:20px;
+	padding:0px 10px;
 	margin-bottom:20px;
+}
+.chef1{
+	
+	position:relative;
+	
 	overflow:hidden;
 
 }
